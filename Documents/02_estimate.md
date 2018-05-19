@@ -1,15 +1,21 @@
 # 購入品
 
+## 基本構成：7500円
+
 * RaspberryPi 3 Model B：5000円程度
 	- WiFi、BLE内蔵
 	- 「Pi3 Model B+」（35USD）は2018/03月時点で技適を得ていないため、使用が難しいか。
 * MicroSDカード：2500円
 	- 32GB microSDHC (A1対応) 
 	- [SANDISK microSDHC Extreme 32GB](https://www.amazon.co.jp/exec/obidos/ASIN/B06XWMQ81P/ibukiorz-22/?linkCode=as2)
-* モバイルバッテリ
-	- Raspberry Pi3利用には、5V 2.5Aの電源と電圧降下の少ない専用の電源ケーブルが必要。
-* MicroUSBケーブル
+
+## 中継器をハードに搭載する場合の追加部品
+
+* モバイルバッテリ（ハード搭載時）：★★★円
+	- Raspberry Pi3利用には、5V 2.5Aの電源と電圧降下の少ない専用の電源ケーブルが必要？
+* MicroUSBケーブル（ハード搭載時）：★★★円
 	- RaspberryPi とモバイルバッテリを接続。
+	- Raspberry Pi3利用には、5V 2.5Aの電源と電圧降下の少ない専用の電源ケーブルが必要？
 
 ## 検討
 * LCD
@@ -19,6 +25,11 @@
 
 # 工数見積
 計：59日
+
+## 前提
+* RaspberryPi（Pi 3 Model B）はWiFI、BLE共にデフォルトで利用可。
+* codeはpython3で記述する方向。
+* 簡易UIをhtml+JavaScriptで作成するか？
 
 ## 方式検討：10日
 * 位置確認／自動走行制御方式検討：10日
